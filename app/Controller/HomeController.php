@@ -37,7 +37,7 @@ class HomeController extends Controller
             $deck = new Deck();
             $this->view('home.index', compact('deck', 'errors'));
         }else{
-            if(!$this->_session->get('selected_card')){}
+            if(!$this->_session->get('selected_card'))
                 $this->_session->set('selected_card', $params['selected_card']);
             $deck = new Deck();
             $deck->shuffle();

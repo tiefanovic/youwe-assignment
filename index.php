@@ -22,10 +22,14 @@ $router = new \Buki\Router([
         'controllers' => 'App\Controller',
     ],
 ]);
+// Poker Game Routes
 $router->get('/', 'HomeController@index');
 $router->post('/poker/select-card', 'HomeController@selectCard');
 $router->get('/poker/index', 'PokerController@index');
 $router->post('/poker/draw', 'PokerController@draw');
 $router->get('/poker/success', 'PokerController@success');
 $router->post('/poker/new-game', 'PokerController@clearSessionData');
+// Word Analyzer Routes
+$router->get('/words', 'WordController@index');
+$router->post('/words/analyze', 'WordController@analyze');
 $router->run();
