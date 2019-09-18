@@ -5,4 +5,5 @@
 - system should calculate the percentage of the selected card to the remaining cards
 
 **Second Task**
-- Word Analyzer (will be updated soon)
+- Word Analyzer 
+- please checkout branch word_analyzer
