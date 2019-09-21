@@ -128,3 +128,6 @@ body {
 .card{
     margin-bottom: 15px;
 }
+.table td, .table th{
+    color: #fff;
+}

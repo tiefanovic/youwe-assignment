@@ -17,8 +17,8 @@
     <div class="inner">
         <h3 class="masthead-brand">Youwe Asssignment</h3>
         <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Pocker Cards</a>
-            <a class="nav-link" href="#">Word Analyzer</a>
+            <a class="nav-link active" href="/">Pocker Cards</a>
+            <a class="nav-link" href="/words">Word Analyzer</a>
         </nav>
     </div>
 </header>
